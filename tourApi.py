@@ -21,7 +21,7 @@ def getRequestUrl(url):
         print(f"에러 발생 url : {url} {datetime.datetime.now()}")
         return None
 
-# print(getRequestUrl("http://openapi.tour.go.kr/openapi/service/EdrcntTourismStatsService/getEdrcntTourismStatsList?YM=202403&NAT_CD=112&ED_CD=E&serviceKey=cTWUGiJR%2FGRNsWP1Zvpr6EfojgF2NzRo6pzKHUXZplHewa1M8A9dkuiqnqsbVFTvix8hc8GWw4abmLFx7YB5tA%3D%3D"))
+# print(getRequestUrl("http://openapi.tour.go.kr/openapi/service/EdrcntTourismStatsService/getEdrcntTourismStatsList?YM=202403&NAT_CD=112&ED_CD=E&serviceKey="))
 
 def getTourismStatsItem(yyyymm, nat_cd, ed_cd):
     baseUrl = "http://openapi.tour.go.kr/openapi/service/EdrcntTourismStatsService/getEdrcntTourismStatsList"
